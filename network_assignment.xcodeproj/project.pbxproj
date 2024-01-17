@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5082522B56E16D0030AC2E /* BeerApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082512B56E16D0030AC2E /* BeerApiManager.swift */; };
+		DC5082552B56E8410030AC2E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC5082542B56E8410030AC2E /* Kingfisher */; };
+		DC5082572B56EAE70030AC2E /* BeerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082562B56EAE70030AC2E /* BeerStruct.swift */; };
+		DC5082602B57A50F0030AC2E /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50825F2B57A50F0030AC2E /* TranslateViewController.swift */; };
+		DC5082662B57AD2B0030AC2E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC5082652B57AD2B0030AC2E /* .gitignore */; };
+		DC5082682B57ADE20030AC2E /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082672B57ADE20030AC2E /* APIKey.swift */; };
+		DC50826A2B57B0FD0030AC2E /* Papago.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082692B57B0FD0030AC2E /* Papago.swift */; };
+		DC50826C2B57B2430030AC2E /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50826B2B57B2430030AC2E /* BookViewController.swift */; };
+		DC50826E2B57B3970030AC2E /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50826D2B57B3970030AC2E /* LanguageViewController.swift */; };
+		DC5082712B57B3E00030AC2E /* UIViewControllerPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082702B57B3E00030AC2E /* UIViewControllerPlus.swift */; };
+		DC5082742B57C1D90030AC2E /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5082732B57C1D90030AC2E /* LanguageTableViewCell.swift */; };
 		DCC6B9CD2B56A1D00039A664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6B9CC2B56A1D00039A664 /* AppDelegate.swift */; };
 		DCC6B9CF2B56A1D00039A664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6B9CE2B56A1D00039A664 /* SceneDelegate.swift */; };
 		DCC6B9D12B56A1D00039A664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC6B9D02B56A1D00039A664 /* ViewController.swift */; };
@@ -19,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5082512B56E16D0030AC2E /* BeerApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerApiManager.swift; sourceTree = "<group>"; };
+		DC5082562B56EAE70030AC2E /* BeerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerStruct.swift; sourceTree = "<group>"; };
+		DC50825F2B57A50F0030AC2E /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		DC5082652B57AD2B0030AC2E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DC5082672B57ADE20030AC2E /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		DC5082692B57B0FD0030AC2E /* Papago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papago.swift; sourceTree = "<group>"; };
+		DC50826B2B57B2430030AC2E /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		DC50826D2B57B3970030AC2E /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		DC5082702B57B3E00030AC2E /* UIViewControllerPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPlus.swift; sourceTree = "<group>"; };
+		DC5082732B57C1D90030AC2E /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
 		DCC6B9C92B56A1D00039A664 /* network_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = network_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC6B9CC2B56A1D00039A664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC6B9CE2B56A1D00039A664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5082552B56E8410030AC2E /* Kingfisher in Frameworks */,
 				DCC6B9E62B56AB7F0039A664 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,9 +65,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC5082622B57A60D0030AC2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC5082562B56EAE70030AC2E /* BeerStruct.swift */,
+				DCC6B9E22B56AB4A0039A664 /* LottoApiManager.swift */,
+				DC5082512B56E16D0030AC2E /* BeerApiManager.swift */,
+				DC5082692B57B0FD0030AC2E /* Papago.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC5082642B57A6400030AC2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC5082722B57C1B20030AC2E /* Cell */,
+				DCC6B9D02B56A1D00039A664 /* ViewController.swift */,
+				DCC6B9E02B56A52A0039A664 /* LottoViewController.swift */,
+				DC50825F2B57A50F0030AC2E /* TranslateViewController.swift */,
+				DC50826B2B57B2430030AC2E /* BookViewController.swift */,
+				DC50826D2B57B3970030AC2E /* LanguageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC50826F2B57B3B80030AC2E /* CommonExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DC5082702B57B3E00030AC2E /* UIViewControllerPlus.swift */,
+			);
+			path = CommonExtension;
+			sourceTree = "<group>";
+		};
+		DC5082722B57C1B20030AC2E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC5082732B57C1D90030AC2E /* LanguageTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		DCC6B9C02B56A1D00039A664 = {
 			isa = PBXGroup;
 			children = (
+				DC5082652B57AD2B0030AC2E /* .gitignore */,
 				DCC6B9CB2B56A1D00039A664 /* network_assignment */,
 				DCC6B9CA2B56A1D00039A664 /* Products */,
 			);
@@ -62,15 +125,16 @@
 		DCC6B9CB2B56A1D00039A664 /* network_assignment */ = {
 			isa = PBXGroup;
 			children = (
+				DC50826F2B57B3B80030AC2E /* CommonExtension */,
 				DCC6B9CC2B56A1D00039A664 /* AppDelegate.swift */,
 				DCC6B9CE2B56A1D00039A664 /* SceneDelegate.swift */,
-				DCC6B9D02B56A1D00039A664 /* ViewController.swift */,
+				DC5082642B57A6400030AC2E /* View */,
+				DC5082622B57A60D0030AC2E /* Model */,
 				DCC6B9D22B56A1D00039A664 /* Main.storyboard */,
-				DCC6B9E22B56AB4A0039A664 /* LottoApiManager.swift */,
-				DCC6B9E02B56A52A0039A664 /* LottoViewController.swift */,
 				DCC6B9D52B56A1D10039A664 /* Assets.xcassets */,
 				DCC6B9D72B56A1D10039A664 /* LaunchScreen.storyboard */,
 				DCC6B9DA2B56A1D10039A664 /* Info.plist */,
+				DC5082672B57ADE20030AC2E /* APIKey.swift */,
 			);
 			path = network_assignment;
 			sourceTree = "<group>";
@@ -93,6 +157,7 @@
 			name = network_assignment;
 			packageProductDependencies = (
 				DCC6B9E52B56AB7F0039A664 /* Alamofire */,
+				DC5082542B56E8410030AC2E /* Kingfisher */,
 			);
 			productName = network_assignment;
 			productReference = DCC6B9C92B56A1D00039A664 /* network_assignment.app */;
@@ -124,6 +189,7 @@
 			mainGroup = DCC6B9C02B56A1D00039A664;
 			packageReferences = (
 				DCC6B9E42B56AB7F0039A664 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DC5082532B56E8410030AC2E /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = DCC6B9CA2B56A1D00039A664 /* Products */;
 			projectDirPath = "";
@@ -139,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5082662B57AD2B0030AC2E /* .gitignore in Resources */,
 				DCC6B9D92B56A1D10039A664 /* LaunchScreen.storyboard in Resources */,
 				DCC6B9D62B56A1D10039A664 /* Assets.xcassets in Resources */,
 				DCC6B9D42B56A1D00039A664 /* Main.storyboard in Resources */,
@@ -152,11 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5082572B56EAE70030AC2E /* BeerStruct.swift in Sources */,
 				DCC6B9D12B56A1D00039A664 /* ViewController.swift in Sources */,
+				DC50826E2B57B3970030AC2E /* LanguageViewController.swift in Sources */,
+				DC5082602B57A50F0030AC2E /* TranslateViewController.swift in Sources */,
+				DC50826C2B57B2430030AC2E /* BookViewController.swift in Sources */,
 				DCC6B9E32B56AB4A0039A664 /* LottoApiManager.swift in Sources */,
 				DCC6B9E12B56A52A0039A664 /* LottoViewController.swift in Sources */,
+				DC5082712B57B3E00030AC2E /* UIViewControllerPlus.swift in Sources */,
+				DC50826A2B57B0FD0030AC2E /* Papago.swift in Sources */,
 				DCC6B9CD2B56A1D00039A664 /* AppDelegate.swift in Sources */,
+				DC5082522B56E16D0030AC2E /* BeerApiManager.swift in Sources */,
+				DC5082682B57ADE20030AC2E /* APIKey.swift in Sources */,
 				DCC6B9CF2B56A1D00039A664 /* SceneDelegate.swift in Sources */,
+				DC5082742B57C1D90030AC2E /* LanguageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +461,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DC5082532B56E8410030AC2E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 		DCC6B9E42B56AB7F0039A664 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -396,6 +480,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DC5082542B56E8410030AC2E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC5082532B56E8410030AC2E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		DCC6B9E52B56AB7F0039A664 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DCC6B9E42B56AB7F0039A664 /* XCRemoteSwiftPackageReference "Alamofire" */;
