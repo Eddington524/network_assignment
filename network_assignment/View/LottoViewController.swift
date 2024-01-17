@@ -25,6 +25,7 @@ class LottoViewController: UIViewController {
     
     @IBOutlet var luckyLabels: [UILabel]!
     
+    @IBOutlet var plusLabel: UILabel!
     let manager = LottoApiManager()
     
     var lottoPickerView = UIPickerView()
